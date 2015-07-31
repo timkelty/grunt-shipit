@@ -60,6 +60,12 @@ module.exports = function (grunt) {
 
 ```
 
+Run Shipit commands from the : `grunt shipit:environment taskName`
+
+```bash
+grunt shipit:staging deploy
+```
+
 For more documentation about Shipit commands please refer to [Shipit repository](https://github.com/shipitjs/shipit).
 
 For more documentation about Shipit deploy task, please refer to [Shipit deploy repository](https://github.com/shipitjs/shipit-deploy).
